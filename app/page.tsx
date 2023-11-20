@@ -1,5 +1,5 @@
 "use client";
-/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @next/next/no-img-element */ 
 
 import Image from 'next/image'
 import Link from 'next/link';
@@ -7,7 +7,7 @@ import React,  { useState, useEffect } from 'react'
 
 import styles from '../styles/Home.module.css'
 
-interface PokemonType {
+export interface PokemonType {
   id: number,
   name: string,
   image: string
