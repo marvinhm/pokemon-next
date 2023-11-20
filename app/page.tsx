@@ -10,7 +10,9 @@ import styles from '../styles/Home.module.css'
 export interface PokemonType {
   id: number,
   name: string,
-  image: string
+  image: string,
+  type: [],
+  stats: []
 }
 
 export default function Home() {
